@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  min-height: 100%;
+  background-color: #f8f9fb;
+  text-align: left;
+}
+  
+body {
+  text-align: left;
+}
+  
+h1 {
+  font-size: 60px;
+  text-align: left;
+ font-family: 'Montserrat', sans-serif;
+}
+  
+p {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#resumeBtn{
+  width: 200px;
+  height: 50px;
+  margin: 2px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid grey; 
+  font-weight: 700;
+  background-color: #AECBEB;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 16px;
+}
+#resumeBtn:hover{
+  background-color: rgb(165, 200, 230);
+}
+
+#projectCardArea{
+  display: flex;
+  justify-content: space-between;
+}
+
+.projectCard{
+  width: 400px;
+  background-color:#e1ecf7;
+  border-radius: 25px;
+  margin: 1%;
+  margin-left: 0%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+#mainHeader{
+  width: 100vw;
+  display:flex;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+#headerTxt, #bioSectionTxt, #portfolioSection{
+  margin-left: 8%;
+  text-align: left;
+}
+
+#bioSectionTxt, #portfolioSection{
+  margin-right: 8%;
+}
+#bioSection{
+  width: 100vw;
+  display:flex;
+  justify-content: space-between;
+  background-color:#e1ecf7;
+}
+#profilePic{ 
+  width: 25%;
+  padding-right: 8%;
+}
+#michiganLogo{
+  height: 20%;
+  width: 20%; 
+  padding-right: 8%;
+}
