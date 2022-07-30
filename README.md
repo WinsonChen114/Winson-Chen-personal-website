@@ -1,2 +1,2 @@
-# Winston-Chen-personal-website
+# Winson-Chen-personal-website
 Personal website lab 1 
